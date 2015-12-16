@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 柱状图 -->
+    <declare-styleable name="histogram_view">
+        <attr name="x_shaft_unit" format="reference|string" />
+        <attr name="y_shaft_unit" format="reference|string" />
+        <attr name="shaft_color" format="color" />
+        <attr name="histogram_color" format="color" />
+        <attr name="x_shaft_min_value" format="integer" />
+        <attr name="x_shaft_max_value" format="integer" />
+        <attr name="x_shaft_interval" format="integer" />
+        <attr name="y_shaft_min_value" format="integer" />
+        <attr name="y_shaft_max_value" format="integer" />
+        <attr name="y_shaft_interval" format="integer" />
+    </declare-styleable>
+
+</resources>

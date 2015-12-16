@@ -1,4 +1,4 @@
-package com.grimmer.simplechart;
+package com.grimmer.simpleChart;
 
 import org.junit.Test;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.grimmer.simplechart.ScrollingActivity">
+    tools:context="com.grimmer.simpleChart.ScrollingActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -32,7 +32,24 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_scrolling" />
+    <com.grimmer.simpleChart.HistogramView
+        android:id="@+id/hvOrderStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        app:histogram_color="@color/colorAccent"
+        app:shaft_color="@color/darkGray"
+        app:x_shaft_interval="1"
+        app:x_shaft_max_value="18"
+        app:x_shaft_min_value="9"
+        app:x_shaft_unit="@string/text_order_statistics_x_unit"
+        app:y_shaft_interval="1"
+        app:y_shaft_max_value="5"
+        app:y_shaft_min_value="0"
+        app:y_shaft_unit="@string/text_order_statistics_y_unit" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

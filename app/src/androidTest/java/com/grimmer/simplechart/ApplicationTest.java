@@ -1,4 +1,4 @@
-package com.grimmer.simplechart;
+package com.grimmer.simpleChart;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
