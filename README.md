@@ -3,6 +3,7 @@
 ---
 
 最近项目准备用到图表的一些东西，大概搜了一下[android的图表开源控件](http://www.jcodecraeer.com/plus/list.php?tid=31&codecategory=13500)，好像用不到那么多东西，而且用起来不习惯，打算自己写一个练习一下，一方面是练习一下自定义控件，一方面自己写的，用起来也习惯，改起来也方便。先看一下大概的样子先，上图：
+
 <img src="http://ww4.sinaimg.cn/large/872c0b14gw1ez1kfmxii0j20u01hc0w0.jpg" width="270" height="480">
 
 
