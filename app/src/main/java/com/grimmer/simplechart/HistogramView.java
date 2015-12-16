@@ -250,7 +250,7 @@ public class HistogramView extends View {
     }
 
     /**
-     * 数据
+     * 图表数据
      */
     public static class ColumnData {
         private int xColumn;
