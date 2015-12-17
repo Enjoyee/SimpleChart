@@ -164,7 +164,7 @@ yShaftInterval = ty.getInteger(R.styleable.histogram_view_y_shaft_interval, 1);
 ty.recycle();
 ```
 
-### 设置画笔熟悉：
+### 设置画笔属性：
 ```java
 mShaftPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 mShaftPaint.setColor(shaftPaintColor);
